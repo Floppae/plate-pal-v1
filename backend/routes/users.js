@@ -8,6 +8,7 @@ router.route('/').get((req, res) => {
 });
 
 router.route('/add').post((req, res) => {
+  //connected with create-user-component.js
   const username = req.body.username;
 
   const newUser = new User({username});

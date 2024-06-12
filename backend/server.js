@@ -2,6 +2,16 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
+//TO RUN SERVER MAKE SURE YOU ARE IN THE BACKEND DIRECTORY
+//To check versions of npm and node: npm -v      node -v
+//Packages = npm install express cors mongoose dotenv
+//npm install -g nodemon
+//Using insomnia to verify data collection from backend
+//MongoDB atlas to store data sent from backend
+
+//ISSUE: check if server is up before npm start
+//nodemon server from backend directory. Then npm start from platepal directory
+
 require('dotenv').config();
 
 const app = express();
